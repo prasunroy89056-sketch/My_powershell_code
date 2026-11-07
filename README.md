@@ -24,23 +24,6 @@ Attempt Limiter: Automatically locks the user out after 3 incorrect tries.
 
 Visual Feedback: Uses color-coded console messages (Green for successful login, Red for errors and lockouts) to provide immediate, clear feedback to the user.
 
-🚀 How to Run
-
-Clone this repository to your local machine:
-
-git clone https://github.com/yourusername/server-pin-simulator.git
-
-
-Open PowerShell on your computer.
-
-Navigate to the directory where you saved the script.
-
-Run the script by typing:
-
-.\ServerPinSimulator.ps1
-
-
-(Note: If you encounter an execution policy error, you may need to run Set-ExecutionPolicy RemoteSigned in an Administrator PowerShell window to allow script execution).
 
 ⚙️ How it Works
 
@@ -66,5 +49,5 @@ Change Attempt Limits: Modify the -lt 3 condition in the while-loop and the $att
 Output->
 <img width="1010" height="626" alt="image" src="https://github.com/user-attachments/assets/ee5654dc-dbd8-4276-a8ee-d5bdc1c629b8" />
 
-This project is open-source and available for educational purposes. Feel free to modify and improve upon the code!
+
 
